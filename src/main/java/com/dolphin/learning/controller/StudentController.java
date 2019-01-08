@@ -1,27 +1,32 @@
 package com.dolphin.learning.controller;
 
 
+import com.dolphin.learning.configproperty.MyConfig;
 import com.dolphin.learning.domain.entity.StudentEntity;
 import com.dolphin.learning.service.StudentService;
+import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RestController
+@Log
 public class StudentController {
 
     @Autowired
     private StudentService studentService;
-    @Value("${age}")
-    private int age;
+    @Autowired
+    private MyConfig myConfig;
 
     @RequestMapping("/student")
     public List<StudentEntity> getStudentList(){
-
-        System.out.println("age-------"+age);
+        log.info("info....");
+        log.info("debug....");
+        log.info("warn....");
+        log.info("error....");
+        System.out.println("name-------"+myConfig);
         return studentService.getStudent();
     }
 }

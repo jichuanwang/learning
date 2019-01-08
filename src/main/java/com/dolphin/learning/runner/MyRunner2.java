@@ -9,11 +9,7 @@ import org.springframework.stereotype.Component;
 public class MyRunner2 implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
-        if(args !=null && args.length>0){
-            for(String arg : args){
-                System.out.println("arg22222--------"+arg);
-            }
-        }
+
 
     }
 }

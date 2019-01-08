@@ -9,7 +9,6 @@ public class BaseConfiguration {
 
     @Bean
     public Long getAge(){
-        System.out.println("hhhhhhh");
         return 10L;
     }
 }
