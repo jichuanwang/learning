@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T09:25:42.172Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="iIsv5Yk2urnzZ0bvd9X2" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T00:58:54.111Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="fmXOtidA39BBdwqscznD" version="21.1.5" type="github">
   <diagram name="第 1 页" id="rcYSfFl20BpukkOVU363">
     <mxGraphModel dx="794" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,6 +28,14 @@
         <mxCell id="zBDEHltWaP5tJLXka34Q-7" value="收银" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="390" y="275" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zBDEHltWaP5tJLXka34Q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zBDEHltWaP5tJLXka34Q-8" target="zBDEHltWaP5tJLXka34Q-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="420" />
+              <mxPoint x="220" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zBDEHltWaP5tJLXka34Q-8" value="风控" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="630" y="275" width="120" height="60" as="geometry" />
         </mxCell>
@@ -36,6 +44,12 @@
         </mxCell>
         <mxCell id="zBDEHltWaP5tJLXka34Q-11" value="统一支付桩点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="305" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zBDEHltWaP5tJLXka34Q-12" value="钱包" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zBDEHltWaP5tJLXka34Q-14" value="通过skuId 查询商品数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
