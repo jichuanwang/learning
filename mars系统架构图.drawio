@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T07:59:05.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2Jh7u7guGE_U5T3yrROZ" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T08:00:56.051Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ORWt6tOyA-sZ6_nd9TsZ" version="21.1.7" type="github">
   <diagram name="第 1 页" id="PDtI5TwQijoS2rOWNoLW">
     <mxGraphModel dx="2133" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,19 +104,19 @@
           <mxGeometry x="-800" y="404" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_h85zgaVH8Z0qXRfAyIR-59" value="收银" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-743" y="417" width="103" height="50" as="geometry" />
+          <mxGeometry x="-743" y="417" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_h85zgaVH8Z0qXRfAyIR-60" value="支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-609" y="417" width="103" height="50" as="geometry" />
+          <mxGeometry x="-630" y="418" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_h85zgaVH8Z0qXRfAyIR-61" value="风控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-478" y="417" width="103" height="50" as="geometry" />
+          <mxGeometry x="-519" y="418" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_h85zgaVH8Z0qXRfAyIR-62" value="商户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-341" y="417" width="103" height="50" as="geometry" />
+          <mxGeometry x="-403.5" y="418" width="73" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_h85zgaVH8Z0qXRfAyIR-63" value="passport" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-208" y="417" width="103" height="50" as="geometry" />
+        <mxCell id="_h85zgaVH8Z0qXRfAyIR-63" value="营销" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-287" y="417" width="73" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_h85zgaVH8Z0qXRfAyIR-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-751" y="500" width="651" height="70" as="geometry" />
@@ -171,6 +171,9 @@
         </mxCell>
         <mxCell id="_h85zgaVH8Z0qXRfAyIR-81" value="日常值班" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5" y="605" width="90" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="_h85zgaVH8Z0qXRfAyIR-82" value="passport" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="418" width="73" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
