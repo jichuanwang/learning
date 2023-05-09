@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T08:17:52.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.9" etag="jT2skCGOxXDr_IkLEbz5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T08:23:44.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZJgUBi5l-TRx4HwfFZd5" version="21.2.9" type="github">
   <diagram name="第 1 页" id="w9UWypJBsIh6wjAWGU5-">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjgT5-G2Uhp1NoE7Jq8I-1" target="bjgT5-G2Uhp1NoE7Jq8I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-1" value="开发" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bjgT5-G2Uhp1NoE7Jq8I-4" target="bjgT5-G2Uhp1NoE7Jq8I-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-4" value="创建发奖计划" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-6" value="落库&amp;nbsp; 发奖计划表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjgT5-G2Uhp1NoE7Jq8I-8" target="bjgT5-G2Uhp1NoE7Jq8I-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-8" value="开发" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bjgT5-G2Uhp1NoE7Jq8I-9" target="bjgT5-G2Uhp1NoE7Jq8I-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-9" value="执行发奖计划" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-11" value="给用户发放礼品卡" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="545" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjgT5-G2Uhp1NoE7Jq8I-14" target="bjgT5-G2Uhp1NoE7Jq8I-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-14" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-15" value="发送已发奖励push给用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bjgT5-G2Uhp1NoE7Jq8I-18" target="bjgT5-G2Uhp1NoE7Jq8I-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-18" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="740" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bjgT5-G2Uhp1NoE7Jq8I-19" value="点击push打开礼品卡mycard页面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
