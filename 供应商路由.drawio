@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T09:14:09.759Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cT5KZNXIAticSdsTpJpp" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T09:14:21.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vb44Gj7o3-3ztwfXER3J" version="21.3.8" type="github">
   <diagram name="第 1 页" id="J5UqhC9E80ztG5F64Tjr">
     <mxGraphModel dx="1306" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-1" value="供应商可用性过滤" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="294" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mkf3tCf8uRwqs011nsPD-2" target="mkf3tCf8uRwqs011nsPD-6">
           <mxGeometry relative="1" as="geometry" />
@@ -20,22 +20,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-2" value="供应商黑名单判断" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="294" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-4" value="1.判断供应商当前是否为在线(status=2)&lt;br&gt;2.判断商品是否需要备货，如果需要备货判断商品库存是否充足" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="510" y="135" width="150" height="130" as="geometry" />
+          <mxGeometry x="406" y="135" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-6" value="1.调文斌接口判断供应商是否可用，可以批量判断&lt;br&gt;2.如果都为黑名单，则按照比例路由" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="510" y="292" width="190" height="110" as="geometry" />
+          <mxGeometry x="406" y="292" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mkf3tCf8uRwqs011nsPD-9" target="mkf3tCf8uRwqs011nsPD-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-9" value="按照比例供应商路由" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="294" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mkf3tCf8uRwqs011nsPD-11" value="1.可用性和黑名单后剩余的供应商&lt;br&gt;2. 如果都是黑名单供应商也比例路由" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="500" y="430" width="260" height="120" as="geometry" />
+          <mxGeometry x="396" y="430" width="260" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
